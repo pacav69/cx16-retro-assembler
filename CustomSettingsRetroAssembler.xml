@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+Custom settings for Retro Assembler to use with Commander X16 Emulator
+-->
+
+<Settings>
+
+	<Setting Name="CpuType" Type="String" Value="65C02" />
+	<Setting Name="OutputFileType" Type="String" Value="prg" />
+
+	<Setting Name="AfterBuild" Type="String" Value="copy.bat" />
+	<Setting Name="LaunchCommand" Type="String" Value="path_to\x16emu.exe -scale 2 -quality nearest -prg {0}" />
+
+
+	<Setting Name="DebugCommand" Type="String" Value="path_to\\x16emu.exe -scale 1 -quality nearest -debug -prg {0}" />
+
+</Settings>
