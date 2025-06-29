@@ -1,13 +1,13 @@
 # Commander x16 and retro assembler
 
+![screenshot](debugging/images/screenshot.png)
 
+these are instructions for using retro assembler and visual studio code for coding on Commander x16
 
-these are instructions for using retro assembler and visual studio code
-
-# Setup
+## Setup
 
 refer to [SetupRetroAssembler](SetupRetroAssembler.md)
 
-# debugging
+## debugging
 
 for debugging instructions refer to [debugging](debugging\Debugger.md)
