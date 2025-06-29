@@ -11,3 +11,6 @@ refer to [SetupRetroAssembler](SetupRetroAssembler.md)
 ## debugging
 
 for debugging instructions refer to [debugging](debugging\Debugger.md)
+
+## contributing 
+read information [contributing](CONTRIBUTING.md)
