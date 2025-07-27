@@ -20,11 +20,11 @@
 
 CHROUT=$FFD2		; CHROUT outputs a character (C64 Kernal API)
 CHRIN=$FFCF			; CHRIN read from default input
-					; ref https://github.com/X16Community/x16-docs/blob/master/X16%20Reference%20-%2004%20-%20KERNAL.md#function-name-graph_clear
-
+					; ref https://github.com/X16Community/x16-dhttps://github.com/X16Community/x16-docs/blob/master/X16%20Reference%20-%2005%20-%20KERNAL.mdocs/blob/master/X16%20Reference%20-%2004%20-%20KERNAL.md#function-name-graph_clear
+					; X16 Reference - 05 - KERNAL.md
 clrscreen:
 					; C64 colors https://www.c64-wiki.com/wiki/Color
-	lda	#$0D		; 10 White background / Black text
+	lda	#$05		; 10 White background / Black text
 					; 01  Black background /  White text
 					; 05  Black background /  green text
 					; 0D  Black background /  light green text
